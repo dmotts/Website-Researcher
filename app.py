@@ -188,7 +188,7 @@ st.set_page_config(layout="wide")
 st.title("Website Researcher")
 
 def main():
-    url = st.text_input("Please enter your website URL")
+    url = st.text_input("Please enter your website URL", placeholder="https://developers.webflow.com/docs/getting-started-with-apps")
     if(url == ""):
         url = "https://developers.webflow.com/docs/getting-started-with-apps"
     query = st.text_input("What is your question?")
