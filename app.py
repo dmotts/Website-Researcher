@@ -191,7 +191,6 @@ def main():
     url = st.text_input("Please enter your website URL")
     if(url == ""):
         url = "https://developers.webflow.com/docs/getting-started-with-apps"
-    st.write(url)    
     query = st.text_input("What is your question?")
     markdown = get_markdown_from_url(url)
     index = create_index_from_text(markdown)
