@@ -3,3 +3,4 @@ streamlit
 llama_index
 langchain
 bs4
+html2text
